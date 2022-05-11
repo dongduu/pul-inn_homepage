@@ -1,0 +1,28 @@
+{
+  "name": "pul-inn_homepage",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next",
+    "build": "next build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dongduu/pul-inn_homepage.git"
+  },
+  "author": "dongduu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dongduu/pul-inn_homepage/issues"
+  },
+  "homepage": "https://github.com/dongduu/pul-inn_homepage#readme",
+  "dependencies": {
+    "next": "^9.5.5",
+    "prop-types": "^15.8.1"
+  },
+  "devDependencies": {
+    "react": "^16.14.0",
+    "react-dom": "^16.14.0"
+  }
+}
