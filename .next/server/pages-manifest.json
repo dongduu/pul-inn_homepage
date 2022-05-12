@@ -3,6 +3,5 @@
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
   "/notice": "pages/notice.js",
-  "/reservation": "pages/reservation.js",
-  "/": "pages/index.js"
+  "/reservation": "pages/reservation.js"
 }
