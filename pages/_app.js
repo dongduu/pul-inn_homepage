@@ -1,9 +1,17 @@
 import "antd/dist/antd.css";
-import React from "react";
+import Head from "next/head";
 import PropTypes from "prop-types";
 
 const App = ({ Component }) => {
-  return <Component />;
+  return (
+    <>
+      <Head>
+        <meta charSet="utf-8" />
+        <title>Pul,inn</title>
+      </Head>
+      <Component />
+    </>
+  );
 };
 
 App.propTypes = {

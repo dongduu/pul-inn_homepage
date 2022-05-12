@@ -1,10 +1,14 @@
 import AppLayout from "../components/AppLayout";
+import Head from "next/head";
 
 const Notice = () => {
   return (
-    <AppLayout>
-      <div>공지사항</div>
-    </AppLayout>
+    <>
+      <Head>
+        <title>공지사항 | Pul,inn</title>
+      </Head>
+      <AppLayout>공지사항</AppLayout>
+    </>
   );
 };
 
