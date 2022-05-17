@@ -15,7 +15,11 @@ const Home = () => {
         />
       </Head>
       <AppLayout>
-        <MainImg src={mainImag} alt="main" />
+        <MainImg src={mainImag} alt="main" />]<p>djjkfdhskjhdfsk</p>
+        <p>djjkfdhskjhdfsk</p>
+        <p>djjkfdhskjhdfsk</p>
+        <p>djjkfdhskjhdfsk</p>
+        <p>djjkfdhskjhdfsk</p>
       </AppLayout>
     </>
   );

@@ -33,11 +33,6 @@
       "static/chunks/main.js",
       "static/chunks/webpack.js",
       "static/chunks/pages/notice.js"
-    ],
-    "/reservation": [
-      "static/chunks/main.js",
-      "static/chunks/webpack.js",
-      "static/chunks/pages/reservation.js"
     ]
   },
   "ampFirstPages": []

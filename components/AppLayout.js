@@ -1,12 +1,12 @@
 import Proptypes from "prop-types";
 import styled from "styled-components";
 import Link from "next/link";
-import { Menu, Row, Col } from "antd";
+import { Row, Col } from "antd";
 
 const AppLayout = ({ children }) => {
   return (
     <>
-      <div>
+      <Layout>
         <HeaderBox>
           <Link href={"/"}>
             <Logo>Pul, inn</Logo>
@@ -23,7 +23,8 @@ const AppLayout = ({ children }) => {
             </Link>
           </NavBox>
         </HeaderBox>
-        <Row gutter={8}>
+        {children}
+        {/* <Row gutter={8}>
           <Col xs={24} md={6}>
             왼쪽 메뉴
           </Col>
@@ -39,18 +40,22 @@ const AppLayout = ({ children }) => {
               에어비앤비 링크
             </a>
           </Col>
-        </Row>
-      </div>
-      <Footer>
-        <p>사업자등록번호: 201-33-92341 </p>
-        <p>TEL: 1322-6745</p>
-        <p>2022 Pul,inn Homepage</p>
-      </Footer>
+        </Row> */}
+        <Footer>
+          <p>사업자등록번호: 201-33-92341 </p>
+          <p>TEL: 1322-6745</p>
+          <p>2022 Pul,inn Homepage</p>
+        </Footer>
+      </Layout>
     </>
   );
 };
 
-const HeaderBox = styled.div`
+const Layout = styled.div`
+  position: relative;
+`;
+
+const HeaderBox = styled.header`
   width: 100%;
   height: 200px;
   border: 1px black solid;
@@ -81,6 +86,8 @@ const Nav = styled.a`
 `;
 
 const Footer = styled.div`
+  position: absolute;
+  bottom: 0;
   width: 100%;
   height: 200px;
   border: 1px black solid;

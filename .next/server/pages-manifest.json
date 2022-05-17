@@ -2,7 +2,6 @@
   "/_app": "pages/_app.js",
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
-  "/notice": "pages/notice.js",
   "/": "pages/index.js",
-  "/reservation": "pages/reservation.js"
+  "/notice": "pages/notice.js"
 }
